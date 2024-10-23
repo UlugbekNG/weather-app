@@ -4,7 +4,7 @@
 
 <template>
   <div class="p-5 flex">
-    <UCard class="bg-slate-700 text-white">
+    <UCard class="bg-white bg-opacity-10 text-white">
       <div class="flex flex-col">
         <p class="text-white font-bold text-2xl">
           Current weather

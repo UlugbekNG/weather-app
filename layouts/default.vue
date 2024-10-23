@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <div class="flex h-screen bg-gradient-to-r from-sky-500 to-sky-600 [background:linear-gradient(90deg,var(--tw-gradient-stops))]">
+<!--  <div class="flex h-screen bg-gradient-to-r from-sky-500 to-sky-600 [background:linear-gradient(90deg,var(&#45;&#45;tw-gradient-stops))]">-->
+  <div class="flex h-screen main-layout">
     <aside
         class="flex flex-col w-20 bg-cool-800 bg-opacity-25 backdrop-blur-xl"
     >
@@ -37,6 +38,16 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
+.main-layout {
+  background-image: url("https://images.unsplash.com/photo-1622030797403-fa221ce5d208?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
 
+}
 </style>

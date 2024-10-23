@@ -15,6 +15,6 @@
 
 <style>
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 </style>
