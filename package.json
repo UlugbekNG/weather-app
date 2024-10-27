@@ -12,7 +12,15 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/fonts": "^0.10.1",
+    "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "^2.18.7",
+    "@pinia/nuxt": "^0.5.5",
     "nuxt": "^3.13.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "nuxt-icons": "^3.2.1"
   }
 }

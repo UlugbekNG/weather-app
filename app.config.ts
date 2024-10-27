@@ -1,12 +1,15 @@
 export default defineAppConfig({
   ui: {
-    primary: 'lime',
+    primary: 'green',
     gray: 'neutral',
     card: {
-      background: 'bg-white bg-opacity-10 backdrop-blur-lg',
+      background: 'backdrop-blur-lg bg-gray-50 dark:bg-gray-800 dark:bg-opacity-30',
       ring: 'ring-0',
       shadow: 'shadow-none',
-      rounded: 'rounded-xl'
+      rounded: 'rounded-xl',
+      header: {
+        padding: 'p-2 sm:p-2',
+      }
     }
   }
 })
